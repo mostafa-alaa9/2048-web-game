@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>2048</title>
+  <!--  Styles  -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.css">
+  
+</head>
+<body>
+  <div class="container">
+    <h1>2048</h1>
+    <div class="ctrls">
+      <label>Score:</label>
+      <span id="score-lbl">0</span>
+      <label>Best:</label>
+      <span id="best-lbl">0</span>
+      <button id="newGameBtn">New Game</button>
+    </div>
+    <div id="content">
+      <canvas id="game-canvas" height="330" width="330">Your browser does not support canvas element.</canvas>
+    </div>
+    <div id="gameover">
+        Game Over!!!
+    </div>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="scripts/user-interaction.js"></script>
+  <script src="scripts/canvas-helper.js"></script>   
+  <script src="scripts/animations.js"></script>
+  <script src="scripts/animations-manager.js"></script>
+  <script src="scripts/tile.js"></script>
+  <script src="scripts/grid.js"></script>
+  <script src="scripts/game.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

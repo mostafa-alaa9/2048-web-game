@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+  h1 {
+    margin: 10px;
+    line-height: 2.5em;
+    background-color: #8BC34A;
+    
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    margin: auto;
+  }
+  .ctrls {
+    margin-top: 2em;
+  }
+  canvas {
+    margin-top: 1em;
+    background-color: #EEE4DA;
+  }
+  
+  #gameover {
+    opacity: 0;
+    font-size: 2.5em;
+    background-color: #ff5a5f;
+    position: absolute;
+    padding: 0.5em;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    background-color: 
+    -ms-transform: translate(50%, 50%); /* IE 9 */
+    -webkit-transform: translate(50%, 50%); /* Safari */
+    transform: translate(-50%, -50%);
+  }
+  
+  span {
+    text-decoration: underline;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  
+  #newGameBtn {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #8BC34A;
+    padding: 7px 15px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+  }
